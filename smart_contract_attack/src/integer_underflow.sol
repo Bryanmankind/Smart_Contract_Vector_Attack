@@ -1,4 +1,5 @@
 pragma solidity 0.6.12;
+pragma experimental ABIEncoderV2;
 
 contract Vault {
     mapping (address => uint256) private userBalances;
